@@ -23,6 +23,7 @@ public class PalindromeNumber {
             return true;
         }
 
+        // 获得这个数字有几位
         int tmp = x;
         int length = 0;
         while (tmp > 0) {
@@ -30,6 +31,7 @@ public class PalindromeNumber {
             length++;
         }
 
+        // 从两端逐位判断是否符合回文规则
         for (int i = 0; i <= length / 2; i++) {
             int left;
             if (i == 0) {
