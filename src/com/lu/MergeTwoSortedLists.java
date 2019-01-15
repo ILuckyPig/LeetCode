@@ -1,6 +1,6 @@
 package com.lu;
 
-import com.item.ListNode;
+import com.lu.item.ListNode;
 
 /**
  * 合并两个排序好的链表

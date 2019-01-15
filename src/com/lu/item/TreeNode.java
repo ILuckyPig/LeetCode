@@ -1,4 +1,4 @@
-package com.lu.utils;
+package com.lu.item;
 
 public class TreeNode {
     int val;
