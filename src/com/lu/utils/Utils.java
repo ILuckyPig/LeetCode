@@ -16,4 +16,19 @@ public class Utils {
         builder.append("NULL");
         System.out.println(builder.toString());
     }
+
+    /**
+     * 遍历数组
+     */
+    public static void traversalArray(int[] nums) {
+        if (nums == null) {
+            System.out.println("result is null");
+        } else {
+            System.out.print("[");
+            for (int i = 0; i < nums.length - 1; i++) {
+                System.out.print(nums[i] + ",");
+            }
+            System.out.println(nums[nums.length - 1] + "]");
+        }
+    }
 }
